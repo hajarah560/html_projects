@@ -1,0 +1,42 @@
+.header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+border:2px solid;
+padding: 20px 40px;
+
+}
+
+.LOGO{
+    font-size: 24px;
+    font-weight: bold;
+
+
+}
+
+.navigation-bar{
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.start{
+    border:2px solid black;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.h2{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.start p{
+    color:rgb(28, 11, 11);
+}
+
+
+
+
+
