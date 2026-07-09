@@ -3,27 +3,21 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 border:2px solid;
-padding: 20px 40px;
-
+padding: 20px;
 }
 
-.LOGO{
-    font-size: 24px;
-    font-weight: bold;
-
-
-}
 
 .navigation-bar{
     display: flex;
-    gap: 30px;
+    gap: 50px;
 
 }
 
 
 .start{
-    border:2px solid black;
-    padding:60px 20px;
+    border: 4px;
+    border-style: double;
+    padding:20px 20px;
     text-align:center;
 }
 
@@ -36,6 +30,20 @@ padding: 20px 40px;
     color:rgb(28, 11, 11);
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    gap: 1em;
+}
+
+.box1,
+.box2,
+.box3{
+    border: 2px solid;
+    padding: 20px;
+
+}
 
 
 
