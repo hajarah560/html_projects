@@ -45,6 +45,27 @@ padding: 20px;
 
 }
 
+.flex-container{
+    display: flex;
+    border: 4px double black;
+    justify-content: space-around;
+
+
+
+}
+
+.flex-box1,
+.flex-box2,
+.flex-box3{
+    border: solid black;
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+
+
+}
+
 
 
 
