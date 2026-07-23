@@ -1,0 +1,74 @@
+body{
+background-color: #028672;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+
+}
+
+.changelog-card{
+    background-color:aquamarine;
+    color: black;
+    width: 100%;
+    height: 550px ;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 15px ;
+    text-align: center;
+}
+
+.title{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    font-size: 0.95rem;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.timeline-items{
+    display: grid;
+    grid-template-columns: 140px 30px 1fr;
+    align-items:center;
+    gap: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    background: rgb(5, 82, 112);
+    border-radius: 50%;
+    display:block;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.dot::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    background: rgb(249, 52, 52);
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 45px;
+}
+
+.button{
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #028672;
+    padding: 15px;
+    border: solid rgb(34, 58, 91);
+}
+
+
+
