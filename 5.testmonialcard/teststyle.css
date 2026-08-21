@@ -1,0 +1,24 @@
+.top-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pic-space {
+    width: 40%;
+    border: 2px solid;
+}
+
+.owner-info {
+    width: 60%;
+    border: 2px solid;
+}
+
+.pic-space img {
+    width: 100%;
+}
+
+.bottom-card {
+    align-items: center;
+    border: 2px solid;
+}
