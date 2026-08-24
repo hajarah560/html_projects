@@ -5,44 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>Hi, I am MUYINGO HAJARAH</h2>
-    <p>
-    <h3>Junior Frontend Developer</h3>
-    </p>
-    <p>This website showcase my HTML and CSS projects</p>
+    <header>
+        <nav id="nav-1">
+            <a href="/">H</a>
+        </nav>
+        <nav id="nav-2">
+            <a href="#projects">Projects</a>
+        </nav>
+        <nav id="nav-3">
+            <a href="https://github.com/hajarah560/html_projects" target="_blank">GitHub</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>
+            Hi, I am <span id="my-name">MUYINGO HAJARAH</span>
+        </h1>
+        <h2>Junior Frontend Developer</h2>
+        <p>This website showcases my HTML and CSS projects</p>
+    </section>
 
-    # HTML Projects Collection
-    <P> A collection of my fronted practice projects built using HTML and CSS</P>
 
-    #Projects
-    <ul>
-        <li>Basic HTML Website </li>
-        <li>HTML cv project</li>
-        <li>Personal CV created with only HTML</li>
-        <li>Changelog Component</li>
-    </ul>
+    <h3>HTML Projects Collection</h3>
+    <p> A collection of my fronted practice projects built using HTML and CSS</p>
 
-    <h4>Technologies I used</h4>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
 
-    <nav>
+    <h3 id="projects-title">PROJECTS</h3>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Basic HTML Website</h3>
+            <p>A simple website built using HTML and CSS.</p>
+            <a href="./01-basic-html-website/index.html" class="btn">Tap to view this Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>HTML CV Project</h3>
+            <p>A personal CV created using HTML.</p>
+            <a href="./02-html-cv-project/index.html" class="btn">Tap to view this Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Personal Portfolio</h3>
+            <p>My personal portfolio website.</p>
+            <a href="./03-personal-portfolio/index.html" class="btn">Tap to view this Project</a>
+        </div>
+
+        
+        <div class="project-card">
+            <h3>Changelog-component</h3>
+            <p>A changelog is to record of all notable changes made to a project or software.</p>
+            <a href= "./04-changelog-component/index.html" class="btn">Tap to view this Project</a>
+        </div>
+
+         <div class="project-card">
+            <h3>Testimonial-card</h3>
+            <p>A changelog is to record of all notable changes made to a project or software.</p>
+            <a href= "./05-testimonial-card/index.html"  class="btn">Tap to view this Project</a>
+        </div>
+    </div>
+
+    <!--<div class="projects-card">
         <ul>
+            <li><a href="./01-basic-html-website/index.html" class="btn">Basic HTML Website</a></li>
 
-            <li><a href="1.basic-html-website/"> View Basic HTML Website</a></li>
+            <li><a href="./02-html-cv-project/index.html" class="btn">HTML CV Project</a></li>
 
-            <li><a href="2.html-cv-project/">View HTML CV Project</a></li>
+            <li><a href="./03-personal-portfolio/index.html" class="btn">Personal Portfolio</a></li>
 
-            <li><a href="3.personal-portfolio/">View Personal Portfolio</a></li>
+            <li><a href="./04-changelog-component/index.html" class="btn">Changelog Component</a></li>
 
-            <li><a href="4.changelog-component/"> View Changelog Component</a></li>
+            <li><a href="./05-testimonial-card/index.html" class="btn">Changelog Component</a></li>
             <ul>
-    </nav>
+    </div> -->
+
 
 </body>
 
