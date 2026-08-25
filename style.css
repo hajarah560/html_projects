@@ -36,32 +36,85 @@ header {
 .btn{
     text-decoration: none;
     font-weight: 500;
+    
 
 }
 
 .projects-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 20px;
+   align-content: center;
+   
+
+
 }
 
 .project-card {
     text-decoration: none;
     padding: 15px;
-    background: rgb(193, 152, 121);
+    background-color: rgb(196, 170, 123);
     border-radius: 15px;
     border: 2px solid #240e0e;
 }
 
-.project-card:hover {
-    transform: translateY(-8px);
-}
+
 
 .project-card a {
+    color: #420808;
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
     font-weight: bold;
 }
+
+.project-card:hover{
+   background-color:rgb(197, 134, 72);
+}
+
+#projects-title{
+    text-align: center;
+     color: #420808;
+}
+
+.text{
+    color: #552d2d;
+}
+
+#my-name{
+    color: #790606;
+}
+
+@media only screen and (min-width:480px){
+    .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#projects-title{
+    text-align: center;
+     color: #420808;
+}
+
+}
+
+@media only screen and (min-width:1050px){
+    .projects-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+#projects-title{
+    text-align: center;
+     color: #420808;
+}
+
+}
+
+
+
 
 
