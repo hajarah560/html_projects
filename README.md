@@ -19,6 +19,8 @@ This repository contains my HTML and CSS projects created while learning fronten
  > Changelog Component
  - A timeline/changelog component built with CSS.
 
+ 
+
 #### Technologies I Used
 1. HTML
 2. CSS
